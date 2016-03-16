@@ -1,0 +1,23 @@
+$teal : #5EE5CB;
+$white : #FFFBF2;
+
+
+.showWeather {
+  padding: 20px;
+}
+
+#map {
+  padding-left: 20px;
+  height: 500px;
+  // width: 500px;
+}
+
+.box {
+
+  #location {
+    width: 40%;
+  }
+  .hidden {
+    visibility: hidden;
+  }
+}
