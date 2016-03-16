@@ -11,6 +11,7 @@ $(document).ready(function() {
         $('#day' + i).append(moment().add(i, 'days').format('dddd') + '<br>High = ' + Math.round(kelvinToFahrenheit(response.list[i].temp.max)) + '&deg;F<br> Low = '+ Math.round(kelvinToFahrenheit(response.list[i].temp.min)) + '&deg;F<br>' + response.list[i].weather[0].description);
         console.log(moment().add(i, 'days').format('dddd'));
       }
+      getLocation();
     }).fail(function(error) {
       $('.showWeather').text(error.message);
     });
