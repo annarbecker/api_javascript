@@ -1,0 +1,139 @@
+{
+  "city": {
+    "id": 5746545,
+    "name": "Portland",
+    "coord": {
+      "lon": -122.676208,
+      "lat": 45.523449
+    },
+    "country": "US",
+    "population": 0
+  },
+  "cod": "200",
+  "message": 0.0714,
+  "cnt": 5,
+  "list": [
+    {
+      "dt": 1458158400,
+      "temp": {
+        "day": 285.04,
+        "min": 273.59,
+        "max": 285.04,
+        "night": 273.59,
+        "eve": 279.87,
+        "morn": 283.42
+      },
+      "pressure": 1009.51,
+      "humidity": 76,
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "02d"
+        }
+      ],
+      "speed": 1.43,
+      "deg": 341,
+      "clouds": 8
+    },
+    {
+      "dt": 1458244800,
+      "temp": {
+        "day": 285.72,
+        "min": 270.98,
+        "max": 286.12,
+        "night": 278.77,
+        "eve": 281.96,
+        "morn": 270.98
+      },
+      "pressure": 1005.9,
+      "humidity": 56,
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "speed": 2.4,
+      "deg": 84,
+      "clouds": 0
+    },
+    {
+      "dt": 1458331200,
+      "temp": {
+        "day": 287.59,
+        "min": 279.47,
+        "max": 287.59,
+        "night": 280.47,
+        "eve": 284.36,
+        "morn": 279.47
+      },
+      "pressure": 1001.55,
+      "humidity": 47,
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "scattered clouds",
+          "icon": "03d"
+        }
+      ],
+      "speed": 3.62,
+      "deg": 131,
+      "clouds": 48
+    },
+    {
+      "dt": 1458417600,
+      "temp": {
+        "day": 280.45,
+        "min": 277.41,
+        "max": 284.48,
+        "night": 280.14,
+        "eve": 284.48,
+        "morn": 277.41
+      },
+      "pressure": 997,
+      "humidity": 0,
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "light rain",
+          "icon": "10d"
+        }
+      ],
+      "speed": 1.2,
+      "deg": 88,
+      "clouds": 91,
+      "rain": 1.85
+    },
+    {
+      "dt": 1458504000,
+      "temp": {
+        "day": 281.64,
+        "min": 279.91,
+        "max": 284.25,
+        "night": 281.03,
+        "eve": 284.25,
+        "morn": 279.91
+      },
+      "pressure": 990.79,
+      "humidity": 0,
+      "weather": [
+        {
+          "id": 501,
+          "main": "Rain",
+          "description": "moderate rain",
+          "icon": "10d"
+        }
+      ],
+      "speed": 1.14,
+      "deg": 98,
+      "clouds": 99,
+      "rain": 8.55
+    }
+  ]
+}
