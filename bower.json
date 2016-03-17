@@ -4,7 +4,7 @@
   "main": "gulpfile.js",
   "license": "ISC",
   "moduleType": [],
-  "homepage": "",
+  "homepage": "https://github.com/annarbecker/api_javascript",
   "ignore": [
     "**/.*",
     "node_modules",

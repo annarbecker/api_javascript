@@ -21,7 +21,7 @@ var getLocation = function() {
     infowindow.open(map,marker);
     });
 
-    $('#destination').val("");
+    // $('#destination').val("");
   }).fail(function(error) {
     $('.showWeather').text(error.message);
   });

@@ -11,7 +11,8 @@ $white : #FFFBF2;
   height: 500px;
 }
 
-.box {
+body {
+  background-color: $white;
 
   #location {
     width: 40%;
@@ -19,4 +20,26 @@ $white : #FFFBF2;
   .hidden {
     visibility: hidden;
   }
+}
+
+#toggle0 {
+  display: none;
+}
+#toggle1 {
+  display: none;
+}
+#toggle2 {
+  display: none;
+}
+#toggle3 {
+  display: none;
+}
+#toggle4 {
+  display: none;
+}
+#toggle5 {
+  display: none;
+}
+#toggle6 {
+  display: none;
 }
