@@ -7,7 +7,7 @@ var getEvents = function() {
       console.log(eventResponse[1].name);
       $('#meetupCity').html('<h1>' + city + ' Meetups</h1>');
       for (var j  = 0 ; j < 7 ; j++) {
-        $('#meetup'+ j).html("<b>" + eventResponse[j].name + "</b><br><a id='" + j + "'>Click For Description</a><div class='descriptions' id='toggle" + j + "'>" + eventResponse[j].description + "</div><br>");
+        $('#meetup'+ j).html("<b>" + eventResponse[j].name + "</b><br><a id='" + j + "'>Click For Description</a><div class='descriptions' id='toggle" + j + "'>" + eventResponse[j].description + "</div><br><a target='none' href='" + eventResponse[j].link + "'>Meetup Info</a><br><p>Category: " + eventResponse[j].category.name + "</p>");
       }
 
 
