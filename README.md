@@ -5,7 +5,7 @@
 #### By Anna Becker
 
 ## Description
-A website that prompts the user to enter a location and then displays a 5 day weather forecast, displays the location on google maps, and provides a list of the top MeetUps in the area. Content for the website was generated from Google Maps API, Open Weather Map API, and MeetUp API.
+A website that prompts the user to enter a location and then displays a 5 day weather forecast, the location on google maps, and provides a list of the top MeetUps in the area. Content for the website was generated from Google Maps API, Open Weather Map API, and MeetUp API.
 
 ## Installation
 
